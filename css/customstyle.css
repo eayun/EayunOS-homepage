@@ -40,7 +40,7 @@ body {
   padding-left: 25px;
 }
 
-.product-description > .description{
+.product-description .description{
   margin: 0px;
 }
 
@@ -49,13 +49,13 @@ body {
   margin-top:20px;
 }
 
-.language-menu-container > .btn-group > .btn-hidden{
+.language-menu-container .btn-group .btn-hidden{
   background-color: transparent;
   border: none;
   color: #fff;
 }
 
-.language-menu-container > .btn-group > .btn-hidden:focus{
+.language-menu-container .btn-group .btn-hidden:focus{
   outline-color: #333333;
 }
 
@@ -67,4 +67,25 @@ body {
   border: none;
   background-color: transparent;
   height: 80px;
+}
+
+.download-link-container {
+  background-color: #ffb400;
+  padding: 20px 25px;
+  min-width: 280px;
+}
+
+.download-link:hover {
+  text-decoration:none;
+}
+
+.download-text-container h4 {
+  margin: 0px;
+  color: #000;
+  font-weight: bold;
+}
+
+.download-text-container p {
+  margin: 0px;
+  color: #000;
 }
