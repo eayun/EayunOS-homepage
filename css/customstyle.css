@@ -1,0 +1,70 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 100px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 100px;
+  background-color: #333333;
+  color: #fff;
+}
+
+.container-footer {
+  padding: 20px 30px 10px 30px;
+  background-color: #333333;
+}
+
+.logo-descr-container{
+  /*display: inline;*/
+}
+
+.logo-descr-container > .media > .media-logo{
+  margin-right: 25px;
+}
+
+.product-description {
+  font-size: 23px;
+  font-weight: bold;
+  font-family: serif;
+
+  border-left: 1px solid #434343;
+  padding-left: 25px;
+}
+
+.product-description > .description{
+  margin: 0px;
+}
+
+.language-menu-container{
+  text-align: center;
+  margin-top:20px;
+}
+
+.language-menu-container > .btn-group > .btn-hidden{
+  background-color: transparent;
+  border: none;
+  color: #fff;
+}
+
+.language-menu-container > .btn-group > .btn-hidden:focus{
+  outline-color: #333333;
+}
+
+
+
+/* Navbar styles
+-------------------------------------------------- */
+.navbar {
+  border: none;
+  background-color: transparent;
+  height: 80px;
+}
