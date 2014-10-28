@@ -90,3 +90,45 @@ body {
   margin: 0px;
   color: #000;
 }
+
+/* Page Content
+-------------------------------------------------- */
+
+.menu-container {
+  margin-top: 10%;
+  background-color: rgba(129,129,129,0.8);
+}
+
+.portal-container {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 25px;
+  margin: 60px 0px;
+}
+
+.user-portal{
+  background-color: #00b1a9 ;
+}
+
+.management-portal{
+  background-color: #00b5ee ;
+}
+
+.report-portal{
+  background-color: #65b72f ;
+}
+
+.portal-name{
+  margin-top: 15px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.portal-link:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
+.portal-link-container{
+  padding: 0px 40px;
+}
