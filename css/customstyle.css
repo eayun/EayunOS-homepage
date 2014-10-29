@@ -57,7 +57,7 @@ body {
 }
 
 .language-menu-container .btn-group .btn-hidden:focus{
-  outline-color: #333333;
+  outline-color: transparent;
 }
 
 
