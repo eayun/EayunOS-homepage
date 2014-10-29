@@ -41,66 +41,64 @@
         </div>
 
         <div class="modal-body">
-          <div class="row">
-            <div class="col-xs-6">
-              <h4>Login</h4>
-            </div>
-            <div class="col-xs-6">
-              <div class="btn-group pull-right">
-                <button type="button" class="btn-hidden" data-toggle="dropdown">
-                  U.S. English <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu dropdown-menu-right" role="menu">
-                  <li><a href="#">Deutsch - Deutschland</a></li>
-                  <li><a href="#">中文（简体） - 中国</a></li>
-                  <li><a href="#">español de España</a></li>
-                  <li><a href="#">français - France</a></li>
-                  <li><a href="#">日本語 - 日本</a></li>
-                  <li><a href="#">한국어 - 대한민국</a></li>
-                  <li><a href="#">português do Brasil</a></li>
-                </ul>
+
+          <div class="alert alert-danger" role="alert">The username or password is incorrect.</div>
+
+          <div class="modal-form-container">
+
+            <div class="row">
+              <div class="col-xs-6">
+                <h4>Login</h4>
+              </div>
+              <div class="col-xs-6">
+                <div class="btn-group pull-right">
+                  <button type="button" class="btn-hidden" data-toggle="dropdown">
+                    U.S. English <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                    <li><a href="#">Deutsch - Deutschland</a></li>
+                    <li><a href="#">中文（简体） - 中国</a></li>
+                    <li><a href="#">español de España</a></li>
+                    <li><a href="#">français - France</a></li>
+                    <li><a href="#">日本語 - 日本</a></li>
+                    <li><a href="#">한국어 - 대한민국</a></li>
+                    <li><a href="#">português do Brasil</a></li>
+                  </ul>
+                </div>
               </div>
             </div>
+
+
+
+            <form role="form">
+              <div class="form-group">
+                <div class="inner-addon left-addon">
+                  <i class="fa fa-user"></i>
+                  <input type="text" class="form-control" id="username" placeholder="Username">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <div class="inner-addon left-addon">
+                  <i class="fa fa-key"></i>
+                  <input type="password" class="form-control" id="pwd" placeholder="Password">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <div class="inner-addon left-addon">
+                  <i class="fa fa-puzzle-piece"></i>
+                  <select class="form-control">
+                    <option>Internal</option>
+                    <option>eayunos.com</option>
+                  </select>
+                </div>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block">Log into your account</button>
+
+            </form>
           </div>
-
-
-
-
-
-
-
-
-
-
-          <form role="form">
-            <div class="form-group">
-              <div class="inner-addon left-addon">
-                <i class="fa fa-user"></i>
-                <input type="text" class="form-control" id="username" placeholder="Username">
-              </div>
-            </div>
-
-            <div class="form-group">
-              <div class="inner-addon left-addon">
-                <i class="fa fa-key"></i>
-                <input type="password" class="form-control" id="pwd" placeholder="Password">
-              </div>
-            </div>
-
-            <div class="form-group">
-              <div class="inner-addon left-addon">
-                <i class="fa fa-puzzle-piece"></i>
-              <select class="form-control">
-                <option>Internal</option>
-                <option>eayunos.com</option>
-              </select>
-            </div>
-            </div>
-
-            <button type="submit" class="btn btn-primary btn-block">Log into your account</button>
-
-          </form>
-
         </div>
 
       </div><!-- /.modal-content -->

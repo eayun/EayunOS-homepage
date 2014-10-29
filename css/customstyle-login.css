@@ -86,7 +86,15 @@ body {
 }
 
 .modal-login-container .modal-body {
-  padding: 40px 80px 60px 80px;
+  padding: 20px 30px 60px 30px;
+}
+
+.modal-login-container .alert {
+  margin-bottom: 0px;
+}
+
+.modal-login-container .modal-body .modal-form-container {
+  padding: 20px 50px 0px 50px;
 }
 
 .modal-login-container .modal-body h4{
