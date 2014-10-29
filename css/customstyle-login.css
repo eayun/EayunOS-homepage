@@ -1,0 +1,150 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 100px;
+  background-image: url('../images/background-official.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 100px;
+  background-color: transparent;
+  color: #fff;
+}
+
+.container-footer {
+  padding: 20px 30px 16px 30px;
+  background-color: rgba(51,51,51,0.9);
+}
+
+.logo-descr-container{
+  /*display: inline;*/
+}
+
+.logo-descr-container > .media > .media-logo{
+  margin-right: 25px;
+}
+
+.product-description {
+  font-size: 23px;
+  font-weight: bold;
+  font-family: serif;
+
+  border-left: 1px solid #434343;
+  padding-left: 25px;
+}
+
+.product-description .description{
+  margin: 0px;
+}
+
+.language-menu-container{
+  text-align: center;
+  margin-top:20px;
+}
+
+.language-menu-container .btn-group .btn-hidden{
+  background-color: transparent;
+  border: none;
+  color: #fff;
+}
+
+.language-menu-container .btn-group .btn-hidden:focus{
+  outline-color: transparent;
+}
+
+/* Login From
+-------------------------------------------------- */
+
+.modal-login-container {
+  background-color: rgba(100,100,100,0.7);
+  color: #fff;
+  border: solid 0px transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  margin-top: 20%;
+}
+
+
+.modal-login-container .modal-header {
+  background-color: rgba(70,70,70,0.7);
+  border: none;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.modal-login-container .modal-body {
+  padding: 40px 80px 60px 80px;
+}
+
+.modal-login-container .modal-body h4{
+  margin-top: 0px;
+}
+
+.modal-login-container .modal-body form .btn{
+  margin-top: 30px;
+  background-color: #00b6ec;
+  border-color: transparent;
+}
+
+/* enable absolute positioning */
+.inner-addon {
+    position: relative;
+}
+
+/* style icon */
+.inner-addon .fa {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+.fa-user {
+  color: #00b6ec;
+}
+
+.fa-key {
+  color: #feb902;
+}
+
+.fa-puzzle-piece {
+  color: #ff8a00;
+}
+
+.fa-warning {
+  color: #f2cb01;
+}
+
+/* align icon */
+.left-addon .fa  { left:  0px;}
+.right-addon .fa { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+.left-addon select  { padding-left:  30px; }
+.right-addon select { padding-right: 30px; }
+
+
+.btn-group .btn-hidden{
+  background-color: transparent;
+  border: none;
+  color: #00b6ec;
+}
+
+.btn-group .btn-hidden:focus{
+  outline-color: transparent;
+}
