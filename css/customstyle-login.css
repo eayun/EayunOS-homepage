@@ -156,3 +156,7 @@ body {
 .btn-group .btn-hidden:focus{
   outline-color: transparent;
 }
+
+.checkbox {
+  padding-right: 10px;
+}
