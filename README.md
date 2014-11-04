@@ -17,7 +17,7 @@ The page is responsive and can be use on a smartphone/tablet.
 Login
 -----
 
-The login page comes with an Alert container to explain to the user why he was not able to log in his account.
+The login page comes with an Alert container to explain to the user why he was not able to log in his account and a checkbox for the User Portal and its auto-connect option.
 
 The page is responsive and can be use on a smartphone/tablet.
 
