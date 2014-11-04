@@ -1,7 +1,7 @@
 EayunOS Homepage/Login
 ======================
 
-This repository contains the design of the homepage and the login page for [EayunOS](http://eayun.cn/product-center/eayun-os/) *v4.1*.
+This repository contains the design of the **Homepage** and the **Login page** of [EayunOS](http://eayun.cn/product-center/eayun-os/) *v4.1*.
 
 Please pay attention that it is only the design of those pages. You will find only html and css files in here. It is up to you to use this material to make it work with your own application.
 
